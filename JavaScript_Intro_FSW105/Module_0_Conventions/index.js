@@ -9,8 +9,8 @@ for(var i = 0; i < 10; i++){
 }
 
 // naming
-var firstName = "nate"
-var laslName = "jensen"
+var firstName = "Nate"
+var laslName = "Jensen"
 
 var friends = []
 var isDone = true

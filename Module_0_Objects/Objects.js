@@ -1,5 +1,5 @@
 var person = {
-    firstName: "John0",
+    firstName: "John",
     lastName: "Doe",
     location: "USA",
     birthDate: "1920",

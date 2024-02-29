@@ -1,17 +1,14 @@
 // JS Conventions
 
 // casing - camelCased
-
 var myLocationIsInUtah = true
 
 // white space
-
 for(var i = 0; i < 10; i++){
     
 }
 
 // naming
-
 var fName = "nate"
 var lName = "jensen"
 

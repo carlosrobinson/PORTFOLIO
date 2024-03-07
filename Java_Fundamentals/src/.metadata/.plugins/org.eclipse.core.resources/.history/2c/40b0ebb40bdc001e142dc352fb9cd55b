@@ -1,0 +1,11 @@
+package com.SwitchStatements;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// switch statements = conditional statement that tries to match the 
+		// variable contained in the statement with a particular value.
+
+	}
+
+}

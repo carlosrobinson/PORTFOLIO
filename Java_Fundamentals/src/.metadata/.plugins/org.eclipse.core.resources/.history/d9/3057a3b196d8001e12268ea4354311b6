@@ -1,0 +1,10 @@
+package ForLoopsBasics;
+
+public class Main {
+	public static void main(String[] args) {
+//		ForloopGetAllWords words new ForloopGetAllWords();
+		ForloopGetAllWords.getAllWords("Hello World this is my for-loop");
+		
+
+	}
+}

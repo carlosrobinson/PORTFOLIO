@@ -1,0 +1,28 @@
+package com.IfStatements;
+
+public class Main {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		// if, else if, and else - conditional statements, blocks of code that executes 
+		// if the Boolean value turn out to be true or false.
+		
+		// Nested Conditional Statements
+		// Chance of Rain (%)	Water Output (L)
+		// 0 - 19					30
+		// 20 - 30					10
+		// 31-55					0
+		// 56 - 100					0
+				
+		int age = 17;
+		if(age >= 18) {
+			System.out.println("Your old enough to see this movie");
+		}else if(age< 18){
+			System.out.println("Your not old enough to see this movie. Do not enter");
+		}
+		
+		WaterSystem hose = new  WaterSystem();
+		WaterSystem.waterHoseSystemA();
+		WaterSystem.waterHoseSystemB();
+	}
+}

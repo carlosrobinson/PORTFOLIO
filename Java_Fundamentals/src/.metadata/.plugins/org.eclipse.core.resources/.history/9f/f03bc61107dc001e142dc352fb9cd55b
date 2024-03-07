@@ -1,0 +1,16 @@
+package com.IfStatements;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// if, else if, and else - conditional statements, blocks of code that executes 
+		// if the Boolean value turn out to be true or false.
+		
+		int age = 18;
+		if(age >= 18) {
+			System.out.println("Your old enough to see this movie");
+		}else if(age< 18){
+
+	}
+
+}

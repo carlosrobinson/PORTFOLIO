@@ -1,0 +1,40 @@
+package com.flowcontrol;
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+		/*
+		 * Switch statements allows a variable to be tested for equality against a list of  values.
+		 */
+		
+		String day = "Monday";
+		
+		switch(day) {
+			case "Sunday":
+				System.out.println("Today is Sunday the begining of the week");
+				break;
+			case "Monday":
+				System.out.println("Today is Monday. Lets get this MONEY!!");
+				break;
+			case "Tuesday":
+				System.out.println("Today is Tuesday");
+				break;
+			case "Wendsday":
+				System.out.println("Today is Wendsday, THE MIDDLE OF THE WEEK.");
+				break;
+			case "Thursday":
+				System.out.println("Today is Thursday. almost the weekend. Yay!");
+				break;
+			case "Friday":
+				System.out.println("Today is Friday the last workday. It's the weekend!");
+				break;
+			case "Saturday":
+				System.out.println("Today is Saturday. LETS NETFLIX AND CHILL");
+				break;
+			default:
+				System.out.println("What day is it");
+		}
+
+	}
+
+}

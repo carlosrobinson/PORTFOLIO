@@ -1,0 +1,46 @@
+package com.ExceptionHandling;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+import com.Polymorphism.Bicycle;
+import com.Polymorphism.Boat;
+import com.Polymorphism.Car;
+
+public class Main {
+
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		// exceptions = an event that occurs during the execution of a program that,
+		// disrupts the normal flow of instrutions
+		
+		Car car = new Car();
+		Bicycle bicycle = new Bicycle();
+		Boat boat = new Boat();
+		
+		Scanner scan = new Scanner(System.in);
+		try {
+		System.out.println("Enter a whole number to divide");
+		int x = scan.nextInt();
+		
+		System.out.println("Enter a whole number to divide by");
+		int y = scan.nextInt();
+		
+		int z = x/y;
+		
+		System.out.println("results: " + z);
+		}catch(ArithmeticException e){
+		System.out.println("You can't divide by zero");
+		scan.nextInt();
+		}catch(InputMismatchException e) {
+			System.out.println("You must enter a number");
+
+		}catch(Exception e) {
+			System.out.println("Something went wrong");
+		}finally{
+				scan.close();
+			}
+		
+	}
+
+}

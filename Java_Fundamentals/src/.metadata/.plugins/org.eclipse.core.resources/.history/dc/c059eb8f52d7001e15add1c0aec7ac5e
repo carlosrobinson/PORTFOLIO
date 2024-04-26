@@ -1,0 +1,19 @@
+package com.FileReader;
+
+import java.io.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// FileReader = read the contents of a file a stream of characters. One by one
+		// 				read() returns an int value which contains the byte value 
+		//				when read() returns -1, there is no more data to be read.
+		try {
+			FileReader reader = new FileReader("art.txt");
+			reader.read();
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

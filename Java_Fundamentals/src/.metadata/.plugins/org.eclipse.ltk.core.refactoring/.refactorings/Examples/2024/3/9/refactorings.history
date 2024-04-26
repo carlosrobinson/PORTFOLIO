@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;ForLoopsBasics&apos; to &apos;OOP/src&apos;&#x0D;&#x0A;- Original project: &apos;Examples&apos;&#x0D;&#x0A;- Destination element: &apos;OOP/src&apos;&#x0D;&#x0A;- Original element: &apos;Examples/src/ForLoopsBasics&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=OOP/src" element1="/src&lt;ForLoopsBasics" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1709385225852" version="1.0"/>
+</session>

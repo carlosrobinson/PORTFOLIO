@@ -1,0 +1,15 @@
+package com.DynamicPolymorphism;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// polymorphism = many/forrms
+		// dynamic = afte compilation (during runtime)
+		
+		// ex. A corvet is a Vehicle, and a car, and an Object		
+
+		
+		Animal animal;
+	}
+
+}

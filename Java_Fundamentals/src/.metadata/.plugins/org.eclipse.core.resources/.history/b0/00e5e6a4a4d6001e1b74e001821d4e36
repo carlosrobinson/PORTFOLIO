@@ -1,0 +1,12 @@
+package com.FileWriter;
+
+import java.io.FileWriter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 
+		FileWriter writer = new FileWriter("list.txt");
+	}
+
+}

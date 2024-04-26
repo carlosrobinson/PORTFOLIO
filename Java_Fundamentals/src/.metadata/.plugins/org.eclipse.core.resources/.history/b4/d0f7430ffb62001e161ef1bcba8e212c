@@ -1,0 +1,22 @@
+package com.java.Daimond;
+
+public class DaimontPattern {
+
+	public static void main(String[] args) {
+//		System.out.println("*");
+		
+//		public String createDimond(String star) {
+//			return "";
+//		}
+		String stars = " ";
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j < i ; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+
+	}
+
+}

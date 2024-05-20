@@ -1,0 +1,57 @@
+body{margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+#myHeader{
+    text-align: center;
+}
+
+#my-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#user-register{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+    border-color: darkgrey;
+    width: 205px;
+    margin: auto;
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+#billing-register{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px gray;
+    border-color: darkgrey;
+    width: 205px;
+    margin: auto;
+    padding: 15px;
+    background-color: cadetblue;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.my-inputs{
+    width: 200px;
+}
+
+#my-button{
+    width: 75px;
+}

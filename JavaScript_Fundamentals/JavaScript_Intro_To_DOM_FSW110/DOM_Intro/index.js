@@ -1,28 +1,34 @@
+
 //Appended H1 Element//
-var newHead = document.createElement("h1")
-newHead.textContent = "Welcome to my JS site"
-document.body.append(newHead)
+const byId = document.getElementById("parent");
+
+
 
 //Apended Div Element to the DOM//
-var newDiv = document.createElement("div");
-newDiv.id = "parent-div";
-document.body.append(newDiv);
+/*var byId = document.createElement("div");
+byId.id = "parent-div";
+document.body.append(byId);
+*/
 
+var newHead = document.createElement("h1")
+newHead.textContent = "Creating and Accessing Elements in the DOM"
+byId.append(newHead)
 
 var newBox1 = document.createElement("input")
-newDiv.append(newBox1)
+byId.append(newBox1); 
+
 var newButton1 = document.createElement("button")
 newButton1.id = "button1";
-newButton1.textContent = "My Object"
-newDiv.append(newButton1);
-
+newButton1.textContent = "Parent Object"
+byId.append(newButton1);
 
 var newBox2 = document.createElement("input")
-newDiv.append(newBox2);
+byId.append(newBox2);
+
 var newButton2 = document.createElement("button")
 newButton2.id = "button2";
-newButton2.textContent = "My Child Objects"
-newDiv.append(newButton2);
+newButton2.textContent = "Child Objects"
+byId.append(newButton2);
 
 
 
@@ -52,7 +58,7 @@ function createEle(element){
     elName1.id = el1+count1;
     // increments counter1
     count1++;
-    return newElement.appendChild(elName1);
+    return newElement.appendChild(elName1) ;
 }
 
 
@@ -79,3 +85,4 @@ function createChildEle(element){
      count2++;
      return parentEl.appendChild(elName2);
 }
+

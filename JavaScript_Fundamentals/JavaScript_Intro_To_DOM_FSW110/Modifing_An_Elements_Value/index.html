@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1 id="myHeader">Modifing An Elements Value</h1>
+        <!--  "action" property basically points to the server page -->
+        <form action="#" id="my-info" name="user" >
+            <p id="user-register">
+                <label for="input-one">Full Name:</label>
+                <!-- <br> -->
+                <input type="text" id="input-one" class="my-inputs" name="userName" placeholder="Full Name"  required/>
+                <!-- <br> -->
+                <label for="input-two">Address:</label>
+                <!-- <br> -->
+                <input type="text" id="input-two" class="my-inputs" name="address" placeholder="Address" class="my-inputs" required/>
+                <!-- <br> -->
+                <label for="input-three">Phone Number:</label>
+                <!-- <br> -->
+                <input type="tel" id="input-three" class="my-inputs" name="phoneNumber" placeholder="Phone Number" required/>
+                <input type="checkbox" id="check-box" name="sameAsBilling" onclick="fillBilling(this.form)">
+                <em>Check this box if Billing Address and Mailing Addres is the same</em>
+            </p>
+            <br>
+            <p id="billing-register">
+                <!-- <br> -->
+                <label for="input-four">Billing Address:</label>
+                <!-- <br> -->
+                <input type="text" id="input-four" class="my-inputs" name="billingAddress" placeholder="Billing Address" class="my-inputs" required/>
+                <!-- <br> -->
+                <label for="input-five">Phone Number:</label>
+                <!-- <br> -->
+                <input type="tel" id="input-five" class="my-inputs" name="billingPhoneNumber" placeholder="Billing Phone Number" required/>
+            </p>
+            <p id="buttons"><input id="my-button" type="Submit" />&nbsp;<input type="reset" name="" id="my-rest"/></p>
+        </form>
+        <script src="./modifingElementsText.js"></script>
+    </body>
+</html>
